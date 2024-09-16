@@ -1,0 +1,4 @@
+#SetTimer{
+    transform: translateY(-100%);
+    transition: all .7s ease-out;
+}

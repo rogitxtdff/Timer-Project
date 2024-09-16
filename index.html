@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/app.css" />
+    <link rel="stylesheet" href="./css/trasform.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body class="m-0 p-0 font-sans flex items-center h-[100vh] justify-center bg-gray-800">
+    <div id="SetTimer" class="absolute w-[100%] h-[100%] bg-gray-400">
+      <h1 class="text-[40px] text-white font-bold text-center mt-[10%]">
+        Set Timer
+      </h1>
+      <div
+        class="w-[40%] mx-[30%] mt-[7%] h-[250px] flex-col flex justify-around items-center"
+      >
+        <div class="w-[80%] flex justify-between">
+          <input
+            maxlength="2"
+            placeholder="Minutes"
+            class="w-[35%] h-[40px] rounded-2xl shadow-2xl pl-5 text-2xl font-bold"
+            type="text"
+          /><input
+            placeholder="Seconds"
+            class="w-[35%] h-[40px] rounded-2xl shadow-2xl pl-5 text-2xl font-bold"
+            maxlength="2"
+            type="text"
+          />
+        </div>
+        <button
+          class="w-[30%] -mb-10 h-[40px] bg-green-600 shadow-2xl text-white text-2xl font-bold rounded-3xl"
+        >
+          Start
+        </button>
+      </div>
+    </div>
+
+    <div class="w-[20%] h-[10%] bg-gray-600 flex justify-center items-center rounded-3xl shadow-2xl px-2">
+      <h1 class="text-6xl text-white font-bold px-2">00</h1>
+      <h1 class="text-6xl text-white font-bold px-2">:</h1>
+      <h1 class="text-6xl text-white font-bold px-2">00</h1>
+    </div>
+  </body>
+</html>
